@@ -1,4 +1,4 @@
-#Simple page and form
+# Simple page and form
 
 This is a simple project built in Laravel
 
