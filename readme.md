@@ -4,8 +4,11 @@ This is a simple project built in Laravel
 
 ## To Run
 `git clone https://github.com/fittipaldi/Page-From.git`
+
 `cd Page-Form`
+
 `composer install`
+
 rename the file `.env.example` to `.env` and check the variables:
 
     Database
@@ -25,6 +28,7 @@ rename the file `.env.example` to `.env` and check the variables:
         MAIL_ENCRYPTION=tls   
 
 `php artisan migrate` to create the tables
+
 `php artisan serve` to run the aplication
     
 <p align="center">
