@@ -2,14 +2,31 @@
 
 This is a simple project built in Laravel
 
-
 ## To Run
-    `git clone `
+    `git clone https://github.com/fittipaldi/Page-From.git`
+    `cd Page-Form`
     `composer install`
+    rename the file `.env.example` to `.env` and chec the variables:
     
-
-
-
+        Database
+            DB_CONNECTION=mysql
+            DB_HOST=127.0.0.1
+            DB_PORT=3306
+            DB_DATABASE=laravel
+            DB_USERNAME=root
+            DB_PASSWORD=
+        
+        Email You can use the mailtrap.io or any other SMTP
+            MAIL_MAILER=smtp
+            MAIL_HOST=smtp.mailtrap.io
+            MAIL_PORT=2525
+            MAIL_USERNAME=
+            MAIL_PASSWORD=
+            MAIL_ENCRYPTION=tls   
+          
+    `php artisan migrate` to create the tables
+    `php artisan serve` to run the aplication
+    
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
