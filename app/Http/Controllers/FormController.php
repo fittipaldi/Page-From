@@ -47,7 +47,6 @@ class FormController extends BaseController
             $contact->friends_email = $friends_email;
 
             if ($contact->save()) {
-                // Customer Email to WiLine
                 $data = [
                     'your_name' => $your_name,
                     'friends_name' => $friends_name,
